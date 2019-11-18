@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+/*body {
+font: normal normal 13px/16px "Open Sans", sans-serif;
+background: #ffff;
+}*/
+
+.container{
+padding: 20px;
+width: 300px;
+margin: 0 auto;
+margin-top: 40px;
+background: white;
+border-radius: 5px;}
+
+#box {
+display: inline-block;
+}
+#idc123{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#slide{
+    margin-left: 200px;
+    text-align: center;
+    display: none;
+    
+    
+}
+
+
+
+
+input{
+padding: 4px 125px 4px 5px;
+}
+#btn_settings {
+    margin-left: 20px;
+    margin-right: 100px;
+   
+}
+#btn_color {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ h2{
+     
+     text-align: center;
+color: blue;
+}
+
+
+#button{
+display: block;
+background-color: #28bb4e;
+color:#ffffff;
+border-radius: 50px;
+text-align:center;
+margin-top:2px;
+padding: 10px 105px;
+}
+
+#button:hover{
+cursor: pointer;
+opacity: .8;}
+
+ol {
+    padding-left: 20px;
+    
+}
+
+ol li {
+    padding: 15px;
+    font-size: 18px;
+    color:#000;
+    
+}
+
+.strike{text-decoration: line-through;}
+
+li:hover{
+  cursor: pointer;
+ }
