@@ -9,6 +9,12 @@ function white() {
     document.body.style.backgroundColor = "white";
 }
 
+//
+var list = [];
+
+
+
+//
 
 
 $(document).ready(
@@ -19,6 +25,20 @@ $(document).ready(
                 var toAdd = $('input[name=textbox]').val();
                  $('ol').append('<li>' + toAdd + '</li>');}
                 $('input[name=textbox]').val("");
+
+                //array
+
+                $(function() {
+                        list = [];
+                    $('li').each(function(){
+                        list.push($(this).text());
+                    });
+                    //alert(list);
+                }); 
+
+                //
+
+
             });
        
        $("input[name=textbox]").keyup(function(event1){
@@ -36,13 +56,39 @@ $(document).ready(
         $(this).val('');
       });
       
-      $('#hs').sortable();  
-        
-        //
+      $('#hs').sortable();
+
+        //  
+        $("body").on('DOMSubtreeModified', "div", function() {
+            $(function() {
+
+                list = [];
+                $('li').each(function(){
+                    list.push($(this).text());
+                });
+            
+            });
+        });
+      
         
         $('#btn_settings').click(
             function(){
-                $('.strike').hide();
+                $('.strike').remove();
+
+
+
+                // array
+                $(function() {
+
+                    list = [];
+                    $('li').each(function(){
+                        list.push($(this).text());
+                    });
+                
+                   // alert(list);
+                });
+
+                //
             });
         
       //
