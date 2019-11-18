@@ -1,10 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 
-body {
-
-} 
-
+ 
 .container{
+text-align: center;
 padding: 50px;
 width: 300px;
 margin: 0 auto;
@@ -19,12 +17,13 @@ font-family: 'Walter Turncoat', cursive;
 #box {
 display: inline-block;
 padding-block-end: 20px;
-padding-left: 20px;
+/*padding-left: 20px;*/
 }
 
-#idc123{
-    margin-left: 30px;  
-}
+/*#idc123 {
+   /* margin-left: 30px;  
+}*/
+
 #slide{
     padding-bottom: 30px;
     position: fixed;
@@ -34,7 +33,9 @@ padding-left: 20px;
 }
 
 input{
-padding: 4px 125px 4px 5px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
 }
 
 #btn_settings {

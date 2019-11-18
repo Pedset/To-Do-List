@@ -6,62 +6,47 @@
         <meta charset="utf-8">
         
         <link rel="stylesheet" href="toDoList.css">
-           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
 
+    <body>
+                                            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        
 
 
-<body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-    
+        <div class="container">
 
-
-    <div class="container">
-
-		<h2>MY TO-DO LIST</h2>
-    
-       
-		<div id="box" name="toDoList">
-            <input id="gg" type="text" name="textbox"/>
-            <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat&display=swap" rel="stylesheet">
-		</div>
-    
-		<div id="button">ADD TO LIST</div>
-        <br>
-        <div id="idc123">
-            <button id="btn_settings"> 🗑️</button>
-            
-                    
-                    
-                    <button id="btn_color"> ⚙️</button>
+            <h2>MY TO-DO LIST</h2>
+        
+        
+            <div id="box" name="toDoList">
+                <input id="gg" type="text" name="textbox" size="20px"/>
+                <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat&display=swap" rel="stylesheet">
             </div>
-                <div id="slide">
-                    <button id="btn_white" onclick="white()">
-                        White
-                    </button>
-                    <button id="btn_darkseagreen" onclick="darkseagreen()">
-                        Green
-                    </button>
-                    <button id="btn_yellow" onclick="gray()">
-                        Gray
-                    </button>
-                
-                </div>
         
+            <div id="button">ADD TO LIST</div>
+            
+            <br>
+
+            <div id="idc123">
+                <button id="btn_settings"> 🗑️</button>
+                <button id="btn_color"> ⚙️</button>
+            </div>
+
+            <div id="slide">
+                <button id="btn_white" onclick="white()">White</button>
+                <button id="btn_darkseagreen" onclick="darkseagreen()">Green</button>
+                <button id="btn_yellow" onclick="gray()">Gray</button>
+            </div>
+
+            <ol id="hs"></ol>
         
+        </div>
         
-        <ol id="hs"></ol>
-       
-		
-      
-      
-    
-    </div>
-    
-	</body>
+    </body>
    
     
     
-    <script src="toD.js"></script>
+<script src="toD.js"></script>
     
 </html>
