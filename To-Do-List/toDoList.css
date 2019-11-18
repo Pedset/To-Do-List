@@ -1,9 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 
-/*body {
-font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #ffff;
-}*/
+body {
+
+} 
 
 .container{
 padding: 20px;
@@ -15,18 +14,20 @@ border-radius: 5px;}
 
 #box {
 display: inline-block;
+padding-block-end: 20px;
+padding-left: 20px;
 }
+
 #idc123{
-    margin-left: auto;
-    margin-right: auto;
-    
+    position: fixed;
+    margin-left: 600px;    
 }
 #slide{
-    margin-left: 200px;
-    text-align: center;
+    padding-bottom: 30px;
+    position: fixed;
+    padding-left: 720px;
+    padding-top: 30px;
     display: none;
-    
-    
 }
 
 
@@ -35,31 +36,37 @@ display: inline-block;
 input{
 padding: 4px 125px 4px 5px;
 }
+
 #btn_settings {
-    margin-left: 20px;
+  
     margin-right: 100px;
-   
+    width: 64px;
+    height: 22px;
 }
+
 #btn_color {
-    margin-left: auto;
-    margin-right: auto;
+    width: 64px;
+    height: 22px;
 }
 
  h2{
-     
-     text-align: center;
-color: blue;
+    text-align: center;
+    color: black;
+    font-family: monaco;
+    font-size: xx-large;
+    padding-top: 20px;
 }
 
 
 #button{
 display: block;
-background-color: #28bb4e;
+background-color: #69a97a;
 color:#ffffff;
-border-radius: 50px;
+border-radius: 10px;
 text-align:center;
 margin-top:2px;
 padding: 10px 105px;
+width: auto;
 }
 
 #button:hover{

@@ -1,6 +1,6 @@
 
-function yellow() {
-    document.body.style.backgroundColor = "yellow";
+function gray() {
+    document.body.style.backgroundColor = "#9D9D93";
 }
 function green() {
     document.body.style.backgroundColor = "green";
@@ -49,16 +49,16 @@ $(document).ready(
         
         $("#btn_color ,#btn_settings").mouseenter(function() {
         $(this).animate({
-            width: "85px",
-            height: "40px"
+            width: "90px",
+            height: "30px"
             
-        }, 800 );});
+        }, 300 );});
         $("#btn_color, #btn_settings").mouseleave(function() {
         $(this).animate({
             width: "64px",
             height: "22px"
             
-        }, 1300 );});
+        }, 300 );});
         //
         
   $("#btn_color").click(function(){
