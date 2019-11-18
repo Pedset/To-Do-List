@@ -2,11 +2,11 @@
 function gray() {
     document.body.style.backgroundColor = "#9D9D93";
 }
-function green() {
-    document.body.style.backgroundColor = "green";
+function darkseagreen() {
+    document.body.style.backgroundColor = "darkseagreen";
 }
-function blue() {
-    document.body.style.backgroundColor = "blue";
+function white() {
+    document.body.style.backgroundColor = "white";
 }
 
 
