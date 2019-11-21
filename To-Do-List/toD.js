@@ -71,15 +71,15 @@ $(document).ready(
 
 
                 // array
-                $(function() {
+                //$(function() {
 
-                    list = [];
-                    $('li').each(function(){
-                        list.push($(this).text());
-                    });
+                  //  list = [];
+                    //$('li').each(function(){
+                      //  list.push($(this).text());
+                   // });
                 
                    // alert(list);
-                });
+               // });
 
                 //
             });
